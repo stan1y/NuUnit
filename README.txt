@@ -84,6 +84,8 @@ After compilation and running your application you should see following in debug
 2 test run, 0 failures. Elapsed time: 0.00003 sec.
 ---------------------------------------------------------------------------------------
 
+You can find sample NuUnit project here: http://github.com/semka/NuUnit-Exmaple
+
 AVAILABLE ASSERTIONS
 --------------------
 NUTestCase class implements some assert methods.
