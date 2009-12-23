@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NuUnitFramework' target in the 'NuUnitFramework' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
