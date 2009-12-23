@@ -1,7 +1,7 @@
 ABOUT
 -----
  
-NuUnit is easy to use Unit testing software for Objective-C.
+NuUnit is simple and easy to use Unit testing software for Objective-C.
  
 INSTALLING
 ----------
