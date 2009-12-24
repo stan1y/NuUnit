@@ -7,25 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76B5295410E299C600D2447C /* NUTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B5294E10E299C600D2447C /* NUTestCase.h */; };
+		76B5295410E299C600D2447C /* NUTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B5294E10E299C600D2447C /* NUTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76B5295510E299C600D2447C /* NUTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5294F10E299C600D2447C /* NUTestCase.m */; };
-		76B5295610E299C600D2447C /* NUTestResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B5295010E299C600D2447C /* NUTestResult.h */; };
+		76B5295610E299C600D2447C /* NUTestResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B5295010E299C600D2447C /* NUTestResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76B5295710E299C600D2447C /* NUTestResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5295110E299C600D2447C /* NUTestResult.m */; };
-		76B5295810E299C600D2447C /* NUTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B5295210E299C600D2447C /* NUTestSuite.h */; };
+		76B5295810E299C600D2447C /* NUTestSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B5295210E299C600D2447C /* NUTestSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76B5295910E299C600D2447C /* NUTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B5295310E299C600D2447C /* NUTestSuite.m */; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		76B5296110E29A0100D2447C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* NuUnitFramework */;
-			remoteInfo = NuUnitFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -39,7 +29,6 @@
 		76B5295110E299C600D2447C /* NUTestResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUTestResult.m; sourceTree = "<group>"; };
 		76B5295210E299C600D2447C /* NUTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUTestSuite.h; sourceTree = "<group>"; };
 		76B5295310E299C600D2447C /* NUTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUTestSuite.m; sourceTree = "<group>"; };
-		76B5295D10E299F900D2447C /* NuUnitRun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = NuUnitRun; path = build/Debug/NuUnitRun; sourceTree = "<group>"; };
 		76B5296710E29A7400D2447C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		76B5296810E29A7400D2447C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,13 +37,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76B5295B10E299F900D2447C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8DC2EF560486A6940098B216 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				8DC2EF5B0486A6940098B216 /* NuUnitFramework.framework */,
-				76B5295D10E299F900D2447C /* NuUnitRun */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,23 +143,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		76B5295C10E299F900D2447C /* NuUnitRun */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76B5296610E29A2600D2447C /* Build configuration list for PBXNativeTarget "NuUnitRun" */;
-			buildPhases = (
-				76B5295A10E299F900D2447C /* Sources */,
-				76B5295B10E299F900D2447C /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76B5296210E29A0100D2447C /* PBXTargetDependency */,
-			);
-			name = NuUnitRun;
-			productName = NuUnitRun;
-			productReference = 76B5295D10E299F900D2447C /* NuUnitRun */;
-			productType = "com.apple.product-type.tool";
-		};
 		8DC2EF4F0486A6940098B216 /* NuUnitFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "NuUnitFramework" */;
@@ -212,7 +176,6 @@
 			projectRoot = "";
 			targets = (
 				8DC2EF4F0486A6940098B216 /* NuUnitFramework */,
-				76B5295C10E299F900D2447C /* NuUnitRun */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +192,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76B5295A10E299F900D2447C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8DC2EF540486A6940098B216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,14 +203,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		76B5296210E29A0100D2447C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8DC2EF4F0486A6940098B216 /* NuUnitFramework */;
-			targetProxy = 76B5296110E29A0100D2447C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
@@ -283,7 +231,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NuUnitFramework_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0xb0000000,
+				);
 				PRODUCT_NAME = NuUnitFramework;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -333,36 +285,6 @@
 			};
 			name = Release;
 		};
-		76B5295F10E299F900D2447C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INSTALL_PATH = /usr/local/bin;
-				PREBINDING = NO;
-				PRODUCT_NAME = NuUnitRun;
-			};
-			name = Debug;
-		};
-		76B5296010E299F900D2447C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				INSTALL_PATH = /usr/local/bin;
-				PREBINDING = NO;
-				PRODUCT_NAME = NuUnitRun;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -380,15 +302,6 @@
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
 				1DEB91B308733DA50010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76B5296610E29A2600D2447C /* Build configuration list for PBXNativeTarget "NuUnitRun" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76B5295F10E299F900D2447C /* Debug */,
-				76B5296010E299F900D2447C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
