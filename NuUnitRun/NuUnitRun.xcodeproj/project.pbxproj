@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* MainMenu.xib */; };
+		2F7446990DB6B7EA00F9684A /* NuUnitRun.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7446970DB6B7EA00F9684A /* NuUnitRun.xib */; };
 		7652D5F510E39E3700BDBC46 /* NuUnitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7652D5F410E39E3700BDBC46 /* NuUnitFramework.framework */; };
 		7652D5FD10E39EB000BDBC46 /* NuUnitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7652D5F410E39E3700BDBC46 /* NuUnitFramework.framework */; };
 		7652D64110E3A13E00BDBC46 /* NuUnitFramework.xcodeproj in Frameworks */ = {isa = PBXBuildFile; fileRef = 7652D63E10E3A13E00BDBC46 /* NuUnitFramework.xcodeproj */; };
+		76E4929E10E4CCC900B69D6A /* NuUnitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E4929D10E4CCC900B69D6A /* NuUnitController.m */; };
 		770B37ED0679A11B001EADE2 /* NuUnitRun_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* NuUnitRun_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* NuUnitRun_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* NuUnitRun_AppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -23,14 +24,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 7652D63E10E3A13E00BDBC46 /* NuUnitFramework.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8DC2EF5B0486A6940098B216 /* NuUnitFramework.framework */;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = NuUnitFramework;
 		};
 		7652D65210E3A15200BDBC46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7652D63E10E3A13E00BDBC46 /* NuUnitFramework.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* NuUnitFramework */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = NuUnitFramework;
 		};
 /* End PBXContainerItemProxy section */
@@ -54,10 +55,12 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F7446980DB6B7EA00F9684A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/NuUnitRun.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* NuUnitRun_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuUnitRun_Prefix.pch; sourceTree = "<group>"; };
 		7652D5F410E39E3700BDBC46 /* NuUnitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NuUnitFramework.framework; path = ../build/Debug/NuUnitFramework.framework; sourceTree = SOURCE_ROOT; };
 		7652D63E10E3A13E00BDBC46 /* NuUnitFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NuUnitFramework.xcodeproj; path = ../NuUnitFramework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		76E4929C10E4CCC900B69D6A /* NuUnitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuUnitController.h; sourceTree = "<group>"; };
+		76E4929D10E4CCC900B69D6A /* NuUnitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuUnitController.m; sourceTree = "<group>"; };
 		770B37EC0679A11B001EADE2 /* NuUnitRun_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = NuUnitRun_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* NuUnitRun_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NuUnitRun_AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			children = (
 				77C8280B06725ACE000B614F /* NuUnitRun_AppDelegate.h */,
 				77C8280C06725ACE000B614F /* NuUnitRun_AppDelegate.m */,
+				76E4929C10E4CCC900B69D6A /* NuUnitController.h */,
+				76E4929D10E4CCC900B69D6A /* NuUnitController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 		29B97314FDCFA39411CA2CEA /* NuUnitRun */ = {
 			isa = PBXGroup;
 			children = (
+				76E492D010E4D7CB00B69D6A /* Sample */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -144,7 +150,7 @@
 			children = (
 				8D1107310486CEB800E47090 /* NuUnitRun-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				2F7446970DB6B7EA00F9684A /* MainMenu.xib */,
+				2F7446970DB6B7EA00F9684A /* NuUnitRun.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -164,6 +170,13 @@
 				7652D65110E3A14300BDBC46 /* NuUnitFramework.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		76E492D010E4D7CB00B69D6A /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sample;
 			sourceTree = "<group>";
 		};
 		7756732906782D8800D1FEB8 /* Models */ = {
@@ -236,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				2F7446990DB6B7EA00F9684A /* MainMenu.xib in Resources */,
+				2F7446990DB6B7EA00F9684A /* NuUnitRun.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +263,7 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* NuUnitRun_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* NuUnitRun_DataModel.xcdatamodel in Sources */,
+				76E4929E10E4CCC900B69D6A /* NuUnitController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +286,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		2F7446970DB6B7EA00F9684A /* MainMenu.xib */ = {
+		2F7446970DB6B7EA00F9684A /* NuUnitRun.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2F7446980DB6B7EA00F9684A /* English */,
 			);
-			name = MainMenu.xib;
+			name = NuUnitRun.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
